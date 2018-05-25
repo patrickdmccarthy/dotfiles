@@ -69,9 +69,6 @@ au BufNewFile,BufRead *.vundle set filetype=vim
 set noswapfile
 set nobackup
 set nowb
-" ================ Prettier Config ==============
-autocmd BufWritePre *.js Neoformat
-nnoremap gp :silent %!prettier --stdin --trailing-comma all --single-quote<CR>
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.
 " Only works all the time.
